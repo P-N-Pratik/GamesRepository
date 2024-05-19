@@ -1,0 +1,59 @@
+.body {
+    display :flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    background-color : pink;
+
+    
+    
+
+}
+
+.container {
+
+    display :flex;
+    flex-wrap: wrap;
+    justify-content : center;
+    align-items : center;
+
+    align-content: space-evenly;
+    
+    
+
+    background-color : yellow;
+
+    height : 400px;
+    width : 400px;
+
+
+    border : 2px solid transparent;
+    box-shadow : 2px 2px 20px grey;
+    border-radius : 20px;
+    margin : 50px;
+    
+
+
+}
+
+.box{
+    height :23%;
+    width : 23%;
+    
+    border : 2px solid transparent ;
+    border-radius : 20px;
+    box-shadow : 2px 2px 20px grey ;
+    margin : 5px;
+    
+
+    
+    font-weight:900;
+    font-size: 30px;
+    
+}
+
+.outbox{
+    height :100px;
+    width : 100px;
+
+}

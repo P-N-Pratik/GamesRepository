@@ -1,0 +1,29 @@
+
+.body {
+    display:flex;
+    justify-content : center;
+    align-items :center;
+}
+
+.container {
+    height : 400px;
+    width : 400px;
+    background-color : pink;
+    margin : 50px;
+    border : 2px solid transparent ;
+    
+    border-radius : 20px;
+    box-shadow : 2px 2px 20px grey;
+
+
+    display : flex;
+    flex-direction :column;
+    justify-content : center;
+    align-items : center;
+    align-content: space-evenly;
+}
+
+.common {
+    margin : 10px;
+
+}
